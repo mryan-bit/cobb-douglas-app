@@ -19,7 +19,7 @@ st.write(
 st.subheader("Utility forms (definitions)")
 # Use st.latex for the math — safe and avoids escaping issues
 st.latex(r"U(x,y) = \alpha x + \beta y")          # Linear (perfect substitutes)
-st.latex(r"U(x,y) = \min(\alpha x,\; \beta y)")  # Leontief (perfect complements)
+st.latex(r"U(x,y) = \min\{\alpha x,\; \beta y\}")  # Leontief (perfect complements)
 st.latex(r"U(x,y) = x^{\alpha} y^{\beta}")       # Cobb–Douglas
 
 # -------------------------------------------------------------
